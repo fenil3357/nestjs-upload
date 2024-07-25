@@ -1,3 +1,10 @@
+### Note
+Please note that I've used the @nestjs/throttler to implement the rate limiting in server. As the latest version **@nestjs/throttler@6.0.0** was not working properly so I've used the **@nestjs/throttler@4.0.0** version. So for now please use ``--legacy-peer-deps`` while installing the dependencies. I'll update the version once the issue gets resolved in the **@nestjs/throttler**.
+
+```
+npm install --legacy-peer-deps
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
